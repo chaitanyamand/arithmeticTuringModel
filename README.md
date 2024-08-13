@@ -46,7 +46,7 @@ g++ index.cpp -o arithmetic_turing_machine
 
 The project uses the following grammar:
 
-G = ( {S}, { intlit, *, !, (, ) }, { S->intlit, S->(S), S->S!, S->S*S }, S)
+G = ( {S},    { intlit ,* , ! , ( , ) },    { S->intlit , S->(S) ,S->S! , S->S*S },    S) 
 
 Where:
 - S is the start symbol
